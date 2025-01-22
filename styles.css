@@ -37,6 +37,10 @@ body {
     grid-column: span 2;
 }
 
+.calculator-grid > .span-two:hover {
+    background-color: #d52421d7;
+}
+
 .output {
     grid-column: 1 / -1;
     background-color: #000000e6;
@@ -50,7 +54,7 @@ body {
 }
 
 .output .previous-operand {
-    color: white;
+    color: rgba(255, 255, 255, 0.627);
     font-size: 1.5rem;
 }
 
